@@ -83,6 +83,11 @@ aside {
   grid-row-gap: var(--row-gap);
 }
 
+aside img {
+  max-width: 8rem;
+  margin-top: 1rem;
+}
+
 @media only screen and (max-width: 720px) {
   body {
     align-items: flex-start;
